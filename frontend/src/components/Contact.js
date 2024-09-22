@@ -12,7 +12,8 @@ const Contact = () => {
         viewport={{ once: true }}
       >
         <h2 className="text-4xl font-bold text-center mb-6">Get in Touch</h2>
-        <form className="max-w-xl mx-auto" name="contact" netlify>
+        <form className="max-w-xl mx-auto" name="contact" method="POST" data-netlify="true">
+          <input type="hidden" name="form-name" value="contact" />
           <div className="mb-4">
             <label className="block text-gray-700 mb-2">Name</label>
             <input
