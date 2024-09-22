@@ -1,4 +1,3 @@
-// src/components/sections/Contact.js
 import React from 'react';
 import { motion } from 'framer-motion';
 
@@ -18,7 +17,7 @@ const Contact = () => {
             <label className="block text-gray-700 mb-2">Name</label>
             <input
               type="text"
-              className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500"
+              className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-300"
               placeholder="Your Name"
               required
             />
@@ -27,7 +26,7 @@ const Contact = () => {
             <label className="block text-gray-700 mb-2">Email</label>
             <input
               type="email"
-              className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500"
+              className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-300"
               placeholder="Your Email"
               required
             />
@@ -35,7 +34,7 @@ const Contact = () => {
           <div className="mb-4">
             <label className="block text-gray-700 mb-2">Message</label>
             <textarea
-              className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500"
+              className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-300"
               rows="5"
               placeholder="Your Message"
               required
@@ -43,7 +42,7 @@ const Contact = () => {
           </div>
           <button
             type="submit"
-            className="w-full bg-green-500 text-white py-2 rounded-lg hover:bg-green-600 transition"
+            className="w-full bg-emerald-400 text-white py-2 rounded-lg hover:bg-emerald-500 transition"
           >
             Send Message
           </button>
