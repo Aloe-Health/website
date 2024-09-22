@@ -1,18 +1,18 @@
 // src/components/Hero.js
 import React from 'react';
+import { motion } from 'framer-motion';
 
 const Hero = () => {
   return (
-    <section className="bg-gradient-to-r from-green-400 to-blue-500 text-white py-20">
-      <div className="container mx-auto text-center px-4">
-        <h1 className="text-5xl font-bold mb-4">Empowering You with Health Insights</h1>
-        <p className="text-xl mb-8">
-          Discover the future of personal healthcare with advanced diagnostics at your fingertips.
-        </p>
-        <a href="#contact" className="bg-white text-green-500 px-6 py-3 rounded-full font-semibold hover:bg-gray-100 transition">
-          Get in Touch
-        </a>
-      </div>
+    <section className="snap-start flex items-center justify-center bg-gradient-to-t from-emerald-400 to-green-100 h-screen">
+      <motion.h1
+        className="text-8xl md:text-8xl font-bold text-white"
+        initial={{ opacity: 0, scale: 0.8 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ delay: 0.5, duration: 1.1, type: 'spring', stiffness: 120 }}
+      >
+        aloe.
+      </motion.h1>
     </section>
   );
 };

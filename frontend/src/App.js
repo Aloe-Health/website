@@ -1,17 +1,17 @@
 // src/App.js
 import React from 'react';
 import Hero from './components/Hero';
-import About from './components/About';
-import Features from './components/Features';
+import Mission from './components/Mission';
+import Technology from './components/Technology';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App snap-y snap-mandatory overflow-y-scroll h-screen">
       <Hero />
-      <About />
-      <Features />
+      <Mission />
+      <Technology />
       <Contact />
       <Footer />
     </div>
