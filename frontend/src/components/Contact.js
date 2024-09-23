@@ -12,7 +12,7 @@ const Contact = () => {
         viewport={{ once: true }}
       >
         <h2 className="text-4xl font-bold text-center mb-6">say 'aloe</h2>
-        <form className="max-w-xl mx-auto text-left" name="contact" method="POST" data-netlify="true" /*netlify-honeypot="cant-touch-this"*/ data-netlify-recaptcha="true">
+        <form className="max-w-xl mx-auto text-left" name="contact" method="POST" data-netlify="true" /*netlify-honeypot="cant-touch-this" data-netlify-recaptcha="true" */>
           <input type="hidden" name="form-name" value="contact" />
           {/* <p class="hidden">
             <label> Don’t fill this out if you’re human:</label>
