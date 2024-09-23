@@ -12,8 +12,14 @@ const Contact = () => {
         viewport={{ once: true }}
       >
         <h2 className="text-4xl font-bold text-center mb-6">Say 'aloe</h2>
-        <form className="max-w-xl mx-auto" name="contact" method="POST" data-netlify="true">
+        <form className="max-w-xl mx-auto" name="contact" method="POST" data-netlify="true" 
+  netlify-honeypot="cant-touch-this" data-netlify-recaptcha="true">
           <input type="hidden" name="form-name" value="contact" />
+          <p class="hidden">
+            <label>
+              Don’t fill this out if you’re human: <input name="cant-touch-this" />
+            </label>
+          </p>
           <div className="mb-4">
             <label className="block text-gray-700 mb-2">Name</label>
             <input
@@ -44,7 +50,9 @@ const Contact = () => {
               required
             ></textarea>
           </div>
-          <div data-netlify-recaptcha="true"></div>
+          <div className="mb-4">
+            <div data-netlify-recaptcha="true"></div>
+          </div>
           <button
             type="submit"
             className="w-full bg-emerald-400 text-white py-2 rounded-lg hover:bg-emerald-500 transition"
