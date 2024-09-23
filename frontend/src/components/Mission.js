@@ -8,7 +8,7 @@ const Mission = () => {
     {
       icon: <FaHeartbeat size={40} className="text-red-500" />,
       title: 'Your health',
-      description: 'You deserve to know about the important stuff happening on the inside',
+      description: 'You deserve to know the important stuff happening on the inside',
     },
     {
       icon: <FaUtensils size={40} className="text-blue-500" />,
