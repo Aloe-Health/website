@@ -7,18 +7,18 @@ const Mission = () => {
 
     {
       icon: <FaHeartbeat size={40} className="text-red-500" />,
-      title: 'Your health',
-      description: 'You deserve to know the important stuff happening on the inside',
+      title: 'your health',
+      description: 'you deserve to know the important stuff happening on the inside',
     },
     {
       icon: <FaUtensils size={40} className="text-blue-500" />,
-      title: 'In the home',
-      description: "So we're bringing safe and accessible medical imaging to your kitchen",
+      title: 'in the home',
+      description: "we're bringing safe and accessible medical imaging to your kitchen",
     },
     {
       icon: <FaRegClock size={40} className="text-green-500" />,
-      title: 'Whenever you want',
-      description: "Diseases can develop quickly so we help you look often",
+      title: 'whenever you want',
+      description: "diseases develop quickly so we help you look often",
     }
   ];
 
@@ -31,7 +31,7 @@ const Mission = () => {
         transition={{ duration: 1 }}
         viewport={{ once: true }}
       >
-        <h2 className="text-4xl font-bold text-center mb-12">Your doctor can't see you every week...<br></br>But we can.</h2>
+        <h2 className="text-4xl font-bold text-center mb-12">your doctor can't see you every week...<br></br>but we can.</h2>
         <div className="flex flex-wrap -mx-4">
           {featureData.map((feature, index) => (
             <div key={index} className="w-full md:w-1/3 px-4 mb-8">

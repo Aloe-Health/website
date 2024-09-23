@@ -4,11 +4,11 @@ import { motion } from 'framer-motion';
 const Team = () => {
   const teamMembers = [
     {
-      name: 'Nathaniel Fargo',
+      name: 'nathaniel fargo',
       image: '/images/team/nathaniel-fargo-profile-1.jpg', // Ensure the path is correct
     },
     {
-      name: 'Spencer Marx',
+      name: 'spencer marx',
       image: '/images/team/spencer-marx-profile-1.jpg', // Replace with the actual image path
     },
   ];
@@ -22,7 +22,7 @@ const Team = () => {
         transition={{ duration: 1 }}
         viewport={{ once: true }}
       >
-        <h2 className="text-4xl font-bold text-center mb-12">Founders</h2>
+        <h2 className="text-4xl font-bold text-center mb-12">our founders</h2>
         <div className="flex flex-col md:flex-row justify-center items-center gap-12">
           {teamMembers.map((member, index) => (
             <motion.div

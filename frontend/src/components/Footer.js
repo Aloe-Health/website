@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import '../App.css';
 
 const Footer = () => {
   return (
@@ -20,8 +21,9 @@ const Footer = () => {
           <br/>
         </p>
         <span>{new Date().getFullYear()} &copy; aloe health</span>
-        <p className="mb-2">All rights reserved.</p>
+        <p className="mb-2">all rights reserved</p>
         <div className="mt-4">
+          <p>reach us at <span className="hover-effect"><a href="mailto:contact@aloe-health.tech">contact@aloe-health.tech</a></span></p>
           {/* Add your Social Media Icons here */}
           {/* Example:
           <a href="#" className="mx-2">

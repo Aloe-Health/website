@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+.hover-effect a {
+  text-decoration: none;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.hover-effect a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 1.5px;
+  background-color: #d1d5db;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.3s ease;
+}
+
+.hover-effect a:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
