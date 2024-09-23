@@ -18,6 +18,7 @@ const Contact = () => {
             <label className="block text-gray-700 mb-2">Name</label>
             <input
               type="text"
+              name="name"
               className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-300"
               placeholder="Your Name"
               required
@@ -27,6 +28,7 @@ const Contact = () => {
             <label className="block text-gray-700 mb-2">Email</label>
             <input
               type="email"
+              name="email"
               className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-300"
               placeholder="Your Email"
               required
