@@ -9,12 +9,15 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div className="App snap-y snap-mandatory overflow-y-scroll h-screen">
-      <Hero />
-      <Mission />
-      <About />
-      <Contact />
-      <Team />
-      <Footer />
+        <Hero />
+        {/* main scroll section */}
+        {/* <div className="snap-start"> */}
+          <Mission />
+          <About />
+          <Contact />
+          <Team />
+        {/* </div> */}
+        <Footer />
     </div>
   );
 }

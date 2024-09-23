@@ -14,8 +14,9 @@ const About = () => {
       >
         {/* <h2 className="text-4xl font-bold mb-4">About</h2> */}
         <p className="text-lg text-gray-300">
-          aloe is currently a health tech startup based in Utah
-          <br></br>
+          aloe is a health tech startup based in Utah
+          <br />
+          <br />
           we're building the next generation of technology to change the way we think about medicine
         </p>
       </motion.div>

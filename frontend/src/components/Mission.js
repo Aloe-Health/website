@@ -8,22 +8,22 @@ const Mission = () => {
     {
       icon: <FaHeartbeat size={40} className="text-red-500" />,
       title: 'Your health',
-      description: 'is something you deserve to know about',
+      description: 'You deserve to know about the important stuff happening on the inside',
     },
     {
       icon: <FaUtensils size={40} className="text-blue-500" />,
       title: 'In the home',
-      description: "so we're bringing medical imaging to your kitchen",
+      description: "So we're bringing safe and accessible medical imaging to your kitchen",
     },
     {
       icon: <FaRegClock size={40} className="text-green-500" />,
       title: 'Whenever you want',
-      description: "diseases develop quickly so we help you look often",
+      description: "Diseases can develop quickly so we help you look often",
     }
   ];
 
   return (
-    <section className="snap-start flex items-center justify-center bg-white h-screen">
+    <section className="snap-start flex items-center justify-center bg-white min-h-screen py-12">
       <motion.div
         className="container mx-auto px-4"
         initial={{ opacity: 0 }}

@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const Footer = () => {
   return (
-    <section className="snap-start flex items-center justify-center bg-gray-800 text-gray-300 h-screen">
+    <footer className="snap-start flex items-center justify-center bg-gray-800 text-gray-300 h-screen">
       <motion.div
         className="text-center px-4"
         initial={{ opacity: 0 }}
@@ -11,24 +11,29 @@ const Footer = () => {
         transition={{ duration: 1 }}
         viewport={{ once: true }}
       >
-
-
-        <p className="flex items-center justify-center">
+        <p className="flex items-center justify-center mb-2">
           <img
             src="/images/logo/64logo.png"
             alt="Aloe Icon"
             className="m-1 w-8 h-8" // Adjust size as needed
           />
+          <br/>
         </p>
-        <br></br>
-        <p>{new Date().getFullYear()} &copy; aloe health </p>
-        {/* <br></br> */}
-        <p>All rights reserved.</p>
+        <span>{new Date().getFullYear()} &copy; aloe health</span>
+        <p className="mb-2">All rights reserved.</p>
         <div className="mt-4">
-          {/* Social Media Icons can be added here */}
+          {/* Add your Social Media Icons here */}
+          {/* Example:
+          <a href="#" className="mx-2">
+            <FaFacebookF />
+          </a>
+          <a href="#" className="mx-2">
+            <FaTwitter />
+          </a>
+          */}
         </div>
       </motion.div>
-    </section>
+    </footer>
   );
 };
 
