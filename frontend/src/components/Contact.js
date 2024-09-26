@@ -56,7 +56,7 @@ const Contact = () => {
             Send message
           </button>
         </form>
-        <p className="my-4 px-96">this form is under construction and may not operate correctly<br/>please email us at <a className="underline" href="mailto:contact@aloe-health.tech">contact@aloe-health.tech</a> for any communication</p>
+        {/* <p className="my-4 px-96">this form is under construction and may not operate correctly<br/>please email us at <a className="underline" href="mailto:contact@aloe-health.tech">contact@aloe-health.tech</a> for any communication</p> */}
       </motion.div>
     </section>
   );
